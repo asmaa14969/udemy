@@ -1,0 +1,184 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+/*
+header{
+grid-area: hd;
+} 
+main{
+    grid-area: mn;
+}
+footer{
+    background-color: #333;
+    grid-area: ft;
+}
+.grid .container{    
+display: grid;
+grid-template-areas :
+"hd hd hd hd"
+"mn mn mn mn"
+"mn mn mn mn"
+"mn mn mn mn"
+"ft ft ft ft"
+"ft ft ft ft"
+
+}
+.grid .container > *{
+
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+header .container::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: white;
+    bottom: 0;
+    width: calc(100% - 30%);
+    left: 15px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    padding: 0;
+    margin: 0;
+}
+header .logo img{
+    height: 40px;
+}
+header nav{
+    flex:1;
+}
+*/
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing:border-box ;
+   font-family:sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    
+   
+    background-color: white;
+     justify-content:center;
+    align-content:center;
+}/*
+.form{
+    max-width: 430px;
+    width: 100%;
+     padding: 30;
+    border-radius:6px ;
+   
+background-color:white;
+}*/
+form{
+    margin-top: 30px;
+   
+}
+form.fied{
+    position: relative;
+    height: 50px;
+    width: 100%;
+ margin-top: 20px;
+ border: 6px;
+}
+.field input , .field button{
+ 
+    
+    font-size: 16px;
+
+}
+.field input{
+    outline: none;
+    height: 100%;
+    width: 430px;
+    border: none;
+    padding: 15px 15px;
+    margin: 7px;
+    border:1px solid black;
+   
+ 
+}
+.field button{
+    height: 100%;
+    width: 430px;
+    border: none;
+    padding: 10px 15px;
+    background-color:rgb(172, 37, 172);
+    margin: 5px;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.field button :hover{
+    background-color:rgb(243, 14, 243);
+}
+.field input:focus{
+    border-bottom-width: 2px;
+}
+/*
+.eye-icon{
+    position: absolute;
+    top: 40%;
+    right: 30px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: black;
+}*/
+ form link{
+ text-align: center;
+ font-size: 10px;
+ justify-content: centers;
+ align-content:center;
+ }
+.link span,
+.link a{
+    font-size: 12px;
+    font-weight: 400px;
+  color: black;
+
+}
+.form a{
+    color: rgb(86, 9, 158);
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.form :content a:hover{
+    text-decoration: underline;
+}
+
+ .media{
+    display: flex;
+    color: black;
+    outline: none;
+   background-color: white;
+    border: none;
+    padding: 13px 15px;
+    margin: 3px;
+    border:1px solid black;
+ }
+ a.facebook{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+ }
+ a.google{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+ }
+ a.apple{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+ }
+
